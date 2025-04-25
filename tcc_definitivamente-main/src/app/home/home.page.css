@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    
+   
+}
+
+body {
+    overflow: hidden;
+    background-color: #F5893C;
+  
+}
+ img {
+   width: 20%; 
+   margin-right: 35rem;
+   background-color: white;
+
+ }
+
+
+.form-box {
+   
+    width: 400px;
+    height: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 300rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: white;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    /* Adicionei 'px' para a largura */
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: white;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .5s;
+    background-color: white;
+}
+
+.inputbox input:focus~label,
+.inputbox input:not(:placeholder-shown)~label,
+.inputbox input:valid~label {
+    top: -5px;
+    /* Move o label para cima */
+    font-size: 0.8rem;
+    /* Ajusta o tamanho do texto, se necessário */
+    background-color: white;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: rgb(0, 0, 0); 
+    background-color: white;
+}
+
+.inputbox ion-icon {
+    
+    right: 8px;
+    font-size: 1.2rem;
+    top: 20px;
+    background-color: white;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.login-butto {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000000;
+    border: #000000 solid 2px;
+    background-color: white;
+ 
+}
+
+.recuperar-senha {
+    background: none;
+    /* Remove o fundo */
+    border: none;
+    /* Remove a borda, se necessário */
+    color: #000000;
+    /* Altera a cor do texto */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+    background-color: white;
+}
+
+.recuperar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.register {
+    font-size: .9em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 25px 0 10px;
+    background-color: white;
+}
+
+.register p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-color: white;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+    background-color: white;
+}
+
+.erros {
+    color: rgb(0, 0, 0);
+    display: none;
+    background-color: white;
+}
+
+
+
+
+
+    
+
+    .img img {
+        width: 193px;
+        /* Reduz a largura da imagem */
+        max-width: 260px;
+        /* Define um limite máximo */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        margin: 0 auto;
+        /* Centraliza a imagem */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        background-color: white;
+    }
+
+    .form-box {
+        display: flex;
+        width: 80%;
+        /* Faz o formulário ocupar 90% da largura da tela */
+        max-width: 400px;
+        /* Define um limite máximo */
+        padding: 20px;
+        /* Adiciona espaçamento interno */
+        justify-content: center;
+        align-items: center;
+        background-image: url(../fotos/logo.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: 20rem;
+        background-position-y: 8rem;
+        background-color: white;
+      
+
+    }
+
+    #email {
+        display: flex;
+        background-color: white;
+    }
+
+    .inputbox {
+        display: flex;
+        width: 100%;
+        background-color: white;
+        
+
+      
+
+    }
+
+    .h2-login {
+        color: rgb(0, 0, 0);
+        background-color: white;
+
+
+    }
+
+    .img_header {
+        justify-content: center;
+        align-items: baseline;
+    }
+
+
+
